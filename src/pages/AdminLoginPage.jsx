@@ -28,6 +28,8 @@ const AdminLoginPage = () => {
   const onSubmit = async (data) => {
     let sdk = new MkdSDK();
     //TODO
+   console.log(sdk(data));
+
   };
 
   return (
